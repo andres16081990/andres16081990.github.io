@@ -1,0 +1,49 @@
+body
+{
+    background: url(https://s3.amazonaws.com/makeitreal/cars/jaguar-xe.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+    display: flex;
+}
+.opacity_box
+{
+    width: 600px;
+    margin: 5%;
+    background-color: rgba(0,0,0,0.7);/* de esta forma se coloca opacity dentro del rgba*/
+    color: white;
+    font-family: 'Roboto', sans-serif;   
+    border-radius: 5px;
+    text-align: left ;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+}
+h1,p,a
+{
+    margin:20px 25px 5px 25px;
+}
+a:link
+{
+    width: 130px;
+    height: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background-color: rgba(219,48,48,1);
+    padding: 14px 25px;
+    text-align: center;
+    color:white;
+    display: flex;
+    justify-content: center;    
+}
+
+@media(max-width:600px)
+{
+    .opacity_box
+    {
+        width: 600px;
+    }
+}
+
