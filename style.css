@@ -36,7 +36,10 @@ a:link
     justify-content: center;
     padding-top: 2%;
     margin-bottom: 30px;
-
+}
+a:visited
+{
+    color: white;
 }
 @media all and(max-width: 600px)
 {
