@@ -1,20 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Landing Jaguar</title>
-</head>
-<body>
-    <div class="opacity_box">
-        <h1>Jaguar XE</h1>
-        <p>Jaguar has always had a passion for creativity, innovation and dynamic design; qualities we feel are perfectly expressed in XE. With the introduction of this astonishing vehicle we have joined forces with the very best British creative minds to craft a series of collaborative projects.</p>
-        <a href="https://www.jaguar.com/jaguar-range/xe/index.html"><strong>Go to Webside</strong></a>
-    </div>       
+body
+{
+    background: url(https://s3.amazonaws.com/makeitreal/cars/jaguar-xe.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+}
+.opacity_box
+{
+    width: 600px;
+    margin: 8% 6%;
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+h1,p,a
+{
+    width: 90%;
+    margin: 20px 30px 10px 30px;
+    display: flex;
+}
+a:link
+{   
+    width: 150px;
+    height: 30px;
+    text-decoration: none;
+    background-color: #DB3030;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    padding-top: 2%;
+    margin-bottom: 30px;
 
-</body>
-</html>
+}
+@media all and(max-width: 600px)
+{
+    .opacity_box
+    {
+        width: 600px;
+    }
+}
